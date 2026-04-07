@@ -1,8 +1,10 @@
 p {
-    background-color: #ff00ff;
+    
     font-family: 'Times New Roman', Times, serif;
 }
-
+body {
+    background-color: #debadc;
+}
 h1 {
     color: rgb(183, 37, 178);
 }

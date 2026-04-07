@@ -1,4 +1,3 @@
-//   {}
-.p {
-    
+function helloWorld() {
+    alert("Hello World!");
 }
