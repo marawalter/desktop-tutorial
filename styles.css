@@ -1,9 +1,11 @@
-// {}  
-.p {
-    background-color: magenta;
+p {
+    background-color: #ff00ff;
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color: darksalmon;
+    color: rgb(183, 37, 178);
+}
+h2 {
+    color: aquamarine;
 }
