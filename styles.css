@@ -1,20 +1,29 @@
 p {
-text-align:
-   color: rgb(160, 245, 240);
-   margin: 20px auto;
-}background-color: #f0f0f0;
+    text-align: left;
+    color: rgb(3, 15, 14);
+    margin: 20px auto;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
 body {
     background-color: #debadc;
-     font-family: Arial, Times, serif;
+    font-family: Arial, Times, serif;
+    border-radius: 5px;
 }
+
 h1 {
-        text-align: center;
+    text-align: center;
     color: rgb(183, 37, 178);
 }
+
 h2 {
     text-align: center;
     color: rgb(5, 61, 42);
 }
+
 button {
     display: block;
     margin: 20px auto;
@@ -26,7 +35,11 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-img {
+
+.logo {
     display: block;
     margin: 20px auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
 }
