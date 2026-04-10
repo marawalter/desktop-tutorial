@@ -1,13 +1,32 @@
 p {
-    
-    font-family: 'Times New Roman', Times, serif;
-}
+text-align:
+   color: rgb(160, 245, 240);
+   margin: 20px auto;
+}background-color: #f0f0f0;
 body {
     background-color: #debadc;
+     font-family: Arial, Times, serif;
 }
 h1 {
+        text-align: center;
     color: rgb(183, 37, 178);
 }
 h2 {
-    color: aquamarine;
+    text-align: center;
+    color: rgb(5, 61, 42);
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img {
+    display: block;
+    margin: 20px auto;
 }
