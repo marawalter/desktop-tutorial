@@ -6,18 +6,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cassiopeia Berlin</title>
-
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <h1>Zweite Bundesliga der Damen</h1>
+    <h1>Cassiopeia Berlin</h1>
     <h2>Wir sind aufgestiegen woop woop</h2>
-    <script src="script.js"></script>
-    <button onclick="helloWorld()">Click me!</button>
-    <button onclick="Willkommen()">Willkommen</button>
-
+    <style>
+.content {
+  padding: 0 18px;
+ background-color: white;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+}
+</style>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+ coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+   } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+   }
+ });
+}
+</script>
+    <!-- <button onclick="helloWorld()">Click me!</button> -->
+    <!-- <button onclick="Willkommen()">Willkommen</button> -->
+    <button type="button" class="collapsible">Unsere Geschichte</button>
+    <div class="content">
+        <p>Unsere Geschichte</p>
+    </div>
     <p>Das Tischfußball-Damenteam Cassiopeia Berlin ist ein noch junges, aber umso leidenschaftlicheres Team, das sich
         erst kurz vor dem Start einer neuen Liga formiert hat. Anfang 2025 wurde erstmals eine Regionalliga für Damen
         ins Leben gerufen – eine Entwicklung, die für viele Spielerinnen lange überfällig war. Für das Team bedeutete
