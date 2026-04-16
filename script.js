@@ -13,13 +13,16 @@ function Collapse() {
         coll[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var content = this.nextElementSibling;
-            if (content.style.display === "block") {
+            var currentDisplay = window.getComputedStyle(content).display;
+            if (currentDisplay === "block") {
                 content.style.display = "none";
             } else {
                 content.style.display = "block";
             }
         });
     }
-
 }
+
+// Initialize on page load
+document.addEventListener("DOMContentLoaded", Collapse);
 
