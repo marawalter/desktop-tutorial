@@ -1,0 +1,114 @@
+{
+  "league_name": "Berliner Foosball-Meisterschaft 2026",
+  "season": "Frühjahr 2026",
+  "players": [
+    {
+      "player_id": 101,
+      "name": "Lukas Weber",
+      "team": "Drehmeister",
+      "position": "Stürmer",
+      "goals_scored": 42,
+      "win_rate": 0.85,
+      "matches_played": 20
+    },
+    {
+      "player_id": 102,
+      "name": "Lena Schmidt",
+      "team": "Drehmeister",
+      "position": "Verteidiger",
+      "goals_scored": 18,
+      "win_rate": 0.78,
+      "matches_played": 20
+    },
+    {
+      "player_id": 201,
+      "name": "Jakob Reinhardt",
+      "team": "Tischtitane",
+      "position": "Mittelfeld",
+      "goals_scored": 35,
+      "win_rate": 0.82,
+      "matches_played": 19
+    },
+    {
+      "player_id": 202,
+      "name": "Sophie Chen",
+      "team": "Tischtitane",
+      "position": "Torwart",
+      "goals_scored": 12,
+      "win_rate": 0.80,
+      "matches_played": 19
+    },
+    {
+      "player_id": 301,
+      "name": "Carlos Mendez",
+      "team": "Stangenstürmer",
+      "position": "Stürmer",
+      "goals_scored": 45,
+      "win_rate": 0.88,
+      "matches_played": 21
+    },
+    {
+      "player_id": 302,
+      "name": "Anna Kowalski",
+      "team": "Stangenstürmer",
+      "position": "Verteidiger",
+      "goals_scored": 22,
+      "win_rate": 0.83,
+      "matches_played": 21
+    },
+    {
+      "player_id": 401,
+      "name": "Thomas Bauer",
+      "team": "Flickflamme",
+      "position": "Stürmer",
+      "goals_scored": 38,
+      "win_rate": 0.84,
+      "matches_played": 20
+    },
+    {
+      "player_id": 402,
+      "name": "Mia Hartmann",
+      "team": "Flickflamme",
+      "position": "Mittelfeld",
+      "goals_scored": 28,
+      "win_rate": 0.79,
+      "matches_played": 20
+    },
+    {
+      "player_id": 501,
+      "name": "Paul Fischer",
+      "team": "Torjäger",
+      "position": "Verteidiger",
+      "goals_scored": 15,
+      "win_rate": 0.75,
+      "matches_played": 18
+    },
+    {
+      "player_id": 502,
+      "name": "Emma Braun",
+      "team": "Torjäger",
+      "position": "Torwart",
+      "goals_scored": 10,
+      "win_rate": 0.77,
+      "matches_played": 18
+    },
+    {
+      "player_id": 601,
+      "name": "Felix Wagner",
+      "team": "Schnellschüsse",
+      "position": "Stürmer",
+      "goals_scored": 50,
+      "win_rate": 0.90,
+      "matches_played": 22
+    },
+    {
+      "player_id": 602,
+      "name": "Lisa Müller",
+      "team": "Schnellschüsse",
+      "position": "Mittelfeld",
+      "goals_scored": 30,
+      "win_rate": 0.85,
+      "matches_played": 22
+    }
+  ]
+}
