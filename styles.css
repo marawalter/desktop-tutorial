@@ -91,7 +91,57 @@ button {
   margin: 20px auto;
 }
 
-.button5 {
-  border-radius: 50%;
+#header {
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+#header p {
+  margin: 5px 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+#tableContainer {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+#tableContainer h3 {
+  color: rgb(183, 37, 178);
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: left;
+  padding-left: 20px;
+}
+
+.league-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.league-table th {
+  background-color: #b725b2;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.league-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: rgb(3, 15, 14);
+}
+
+.league-table tr:hover {
+  background-color: #f9f9f9;
 }
