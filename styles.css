@@ -37,12 +37,24 @@ button {
 
 }
 
+.button1 {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6d4caf;
+  color: rgb(215, 151, 243);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .logo {
   display: block;
   margin: 20px auto;
   height: 300px;
   width: 300px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 
@@ -53,7 +65,7 @@ button {
 }
 
 .collapsible {
-  background-color: #eee;
+  background-color: #f17ff7;
   color: #444;
   cursor: pointer;
   width: 100px;
@@ -77,22 +89,24 @@ button {
 
 .active,
 .collapsible:hover {
-  background-color: #ccc;
+  background-color: #d161f7;
+;
 }
 
 .content {
   padding: 20px;
-  display: none;
+  display: round;
   overflow: hidden;
-  background-color: #f1f1f1;
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
+  background-color: #d161f7;
+  width: 500px;
+  height: fit-content;
+  border-radius: 50px;
   margin: 20px auto;
 }
 
 #header {
-  background-color: #f5f5f5;
+  background-color: #d161f7;
+;
   padding: 15px 20px;
   border-radius: 5px;
   margin: 20px auto;

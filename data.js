@@ -5,19 +5,61 @@ const ligaData = {
     "teams": [
         {
             "team_id": 1,
-            "team_name": "Drehmeister",
+            "team_name": "Cassiopeia Berlin",
             "players": [
                 {
-                    "player_id": 101,
-                    "name": "Lukas Weber",
-                    "position": "Stürmer",
-                    "goals_scored": 42,
-                    "win_rate": 0.85
+                    "player_id": "02-2283",
+                    "name": "Mara Walter",
+                    "position": "Stürmerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
                 },
                 {
-                    "player_id": 102,
-                    "name": "Lena Schmidt",
-                    "position": "Verteidiger",
+                    "player_id": "02-2450",
+                    "name": "Lucy Reinhardt",
+                    "position": "Stürmerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "02-2443",
+                    "name": "Sun Babinski",
+                    "position": "Stürmerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "02-2392",
+                    "name": "Claudia Bonacci",
+                    "position": "Verteidigerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "02-2440",
+                    "name": "Alice Pol*",
+                    "position": "Verteidigerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "02-2378",
+                    "name": "Liza Regehr",
+                    "position": "Verteidigerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "09-0007",
+                    "name": "Kata Schulz",
+                    "position": "Verteidigerin",
+                    "goals_scored": 18,
+                    "win_rate": 0.78
+                },
+                {
+                    "player_id": "02-2425",
+                    "name": "Toni Teuchert",
+                    "position": "Verteidigerin",
                     "goals_scored": 18,
                     "win_rate": 0.78
                 }
